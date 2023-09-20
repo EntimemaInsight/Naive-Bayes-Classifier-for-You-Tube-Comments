@@ -18,23 +18,23 @@ The project follows a structured methodology:
 - Import necessary libraries for data manipulation and machine learning.
 - Read multiple CSV files containing YouTube comments and remove irrelevant columns.
   
-### Text Vectorization
+#### Text Vectorization
 - Use the CountVectorizer from scikit-learn to convert text comments into numerical features.
 - Split the dataset into training and testing sets for model development and evaluation.
 
-### Multinomial Naïve Bayes Classification
+#### Multinomial Naïve Bayes Classification
 - Implement the Multinomial Naïve Bayes classifier from scikit-learn.
 - Fit the classifier to the training data to learn the patterns in the comments.
 
-### Model Evaluation
+#### Model Evaluation
 - Evaluate the classifier's performance on the testing dataset using metrics such as precision, recall, and F1-score.
 - Create a confusion matrix display for a visual representation of classification results.
 
-### Probability Distribution Visualization
+#### Probability Distribution Visualization
 - Generate probability distribution figures to understand how the classifier predicts "Ham" and "Spam" comments.
 - Visualize the predicted probability of comments belonging to each class.
 
-### Dataset Description
+#### Dataset Description
 The dataset contains YouTube comments and includes the following variables:
 
 - CONTENT: The text of the YouTube comment.
