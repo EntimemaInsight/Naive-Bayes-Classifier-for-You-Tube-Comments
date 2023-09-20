@@ -1,1 +1,1 @@
-# YouTube-Comment-Spam-Classification-Using-Naive-Bayes.
+# YouTube-Comment-Spam-Classification-Using-Naive-Bayes
