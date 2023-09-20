@@ -47,13 +47,14 @@ The Naïve Bayes Classifier achieved promising results in classifying YouTube co
 The classifier can also be used to make predictions on new data. In the example provided, predictions were made for two comment samples, and the classifier correctly classified them as "Ham" and "Spam."
 
 ## Production Dataset and Output File
-- Production Dataset: For the production phase, a separate dataset named "YoutubeProductionSet.csv" was used. This dataset contains new YouTube comments that need to be classified. 
-- Output File: The results of the classifier, including the predicted class labels, were saved to a new CSV file named "NewData.csv" for further analysis and use.
+#### Production Dataset: 
+For the production phase, a separate dataset named "YoutubeProductionSet.csv" was used. This dataset contains new YouTube comments that need to be classified. 
 
+#### Output File: 
+The results of the classifier, including the predicted class labels, were saved to a new CSV file named "NewData.csv" for further analysis and use.
 
 ## Credits
 This project was implemented by Aleksandar Dimitrov and is licensed under the MIT License. If you have any questions or comments, please feel free to contact me at alexi.zein@gmail.com.
-
 
 
 
